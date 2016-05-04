@@ -7,6 +7,28 @@
     "bootstrap": "^3.3.6",
     "owlcarousel": "^1.3.2",
     "flexslider": "^2.6.0",
-    "jquery": "^2.2.3"
+    "jquery": "^2.2.3",
+    "isotope": "^3.0.0",
+    "font-awesome": "^4.6.2"
+  },
+ "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/fonts/*",
+        "dist/js/bootstrap.js"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.css",
+        "fonts/*"
+      ]
+    },
+    "masonry": {
+      "main": [
+        "dist/masonry.pkgd.js"
+      ]
+    }
   }
 }
