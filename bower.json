@@ -13,9 +13,20 @@
     "jquery_appear": "^0.3.6",
     "ajaxchimp": "^1.3.0",
     "parallax.js": "^1.4.2",
-    "google-map": "^1.1.10"
+    "google-map": "^1.1.10",
+    "wow": "wowjs#^1.1.2",
+    "waypoints": "jquery-waypoints#^4.0.0",
+    "animate.css": "^3.5.1",
+    "jquery-countTo": "^1.2.0",
+    "countUp.js": "^1.7.1"
   },
   "overrides": {
+    "waypoints": {
+      "main": [
+        "lib/noframework.waypoints.min.js",
+        "lib/jquery.waypoints.min.js"
+      ]
+    },
     "owlcarousel": {
       "main": [
         "owl-carousel/owl.carousel.min.js",

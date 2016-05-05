@@ -701,15 +701,15 @@ blockquote footer {
 .boxes [class*="col-"] {
   padding: 5%;
 }
-.client-image {
+/* .client-image {
   max-width: 130px;
   display: block;
   margin: 0 auto;
-}
-.client-image:hover {
+} */
+/* .client-image:hover {
   -webkit-animation: animClient 1.2s both;
   animation: animClient 1.2s both;
-}
+} */
 /*
   01
   Navbar
@@ -889,7 +889,7 @@ blockquote footer {
   display: none;
 }
 #topnav.scroll .logo {
-  padding: 11px 0;
+  padding: 16px 0;
 }
 #topnav.scroll .logo .logo-light {
   display: none;
@@ -4884,4 +4884,19 @@ footer.dark p {
     -webkit-transform: scale(1);
     transform: scale(1);
   }
+}
+
+
+.skill-badge{
+  width: 30px;
+  height:auto;
+}
+
+.client-image {
+  width: 250px;
+  height: 150px;
+}
+
+.wow {
+   visibility: hidden;
 }
